@@ -1,0 +1,33 @@
+Loaded: (3333, 20), missing values: 0, duplicates: 0
+ k   inertia  silhouette
+ 2 36939.503       0.180
+ 3 34219.903       0.186
+ 4 32713.304       0.098
+ 5 31544.564       0.091
+ 6 30617.492       0.091
+ 7 29801.789       0.087
+ 8 29228.447       0.071
+ 9 28598.004       0.070
+10 27981.897       0.076
+
+Elbow (max distance to chord) at k=5; best silhouette at k=3; using K=3
+Silhouette (k=3): 0.186
+
+Cluster profiles (feature means):
+cluster                      0        1       2
+size                    323.00  2180.00  830.00
+share_%                   9.70    65.40   24.90
+Account length          104.07   100.75  100.72
+International plan        1.00     0.00    0.00
+Voice mail plan           0.28     0.00    1.00
+Number vmail messages     8.46     0.00   29.23
+Total day minutes       187.99   178.97  178.70
+Total day calls         100.67   100.68   99.69
+Total eve minutes       203.94   200.01  202.37
+Total eve calls         100.49   100.11   99.97
+Total night minutes     196.41   201.30  201.48
+Total night calls       100.85    99.83  100.54
+Total intl minutes       10.63    10.21   10.15
+Total intl calls          4.61     4.46    4.48
+Customer service calls    1.46     1.59    1.53
+churn_rate_%             42.41    13.85    5.30

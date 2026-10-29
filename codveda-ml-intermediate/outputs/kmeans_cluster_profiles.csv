@@ -1,0 +1,4 @@
+cluster,size,share_%,Account length,International plan,Voice mail plan,Number vmail messages,Total day minutes,Total day calls,Total eve minutes,Total eve calls,Total night minutes,Total night calls,Total intl minutes,Total intl calls,Customer service calls,churn_rate_%
+0,323,9.7,104.071,1.0,0.285,8.464,187.987,100.666,203.937,100.486,196.41,100.851,10.628,4.61,1.464,42.415
+1,2180,65.4,100.75,0.0,0.0,0.0,178.969,100.684,200.015,100.113,201.3,99.832,10.211,4.461,1.589,13.853
+2,830,24.9,100.722,0.0,1.0,29.229,178.695,99.693,202.366,99.972,201.483,100.542,10.153,4.476,1.531,5.301

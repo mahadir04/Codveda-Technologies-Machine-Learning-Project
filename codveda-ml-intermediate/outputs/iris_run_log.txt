@@ -1,0 +1,28 @@
+Loaded iris: (150, 5), missing values: 0
+species
+setosa        50
+versicolor    50
+virginica     50 
+
+Best CV alpha: 0.0185 | 1-SE chosen alpha: 0.0185
+
+                   model  depth  leaves  train_acc  test_acc  test_f1_macro  test_f1_weighted
+                Unpruned      5       8      1.000    0.9333         0.9327            0.9327
+Pruned (ccp_alpha=0.018)      3       4      0.981    0.9333         0.9327            0.9327 
+
+Classification report (pruned tree, test set):
+              precision    recall  f1-score   support
+
+      setosa      1.000     1.000     1.000        15
+  versicolor      1.000     0.800     0.889        15
+   virginica      0.833     1.000     0.909        15
+
+    accuracy                          0.933        45
+   macro avg      0.944     0.933     0.933        45
+weighted avg      0.944     0.933     0.933        45
+
+Feature importance:
+ petal_length    0.558
+petal_width     0.442
+sepal_width     0.000
+sepal_length    0.000
